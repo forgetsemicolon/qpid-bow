@@ -7,7 +7,8 @@ from typing import Optional, Type
 
 from proton import Connection
 from proton.handlers import MessagingHandler
-from proton.reactor import Container, Backoff, EventBase
+from proton.reactor import Container, Backoff
+from proton._events import EventBase
 
 from qpid_bow.config import (
     config,

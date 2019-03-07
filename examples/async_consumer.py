@@ -8,8 +8,9 @@ from qpid_bow.message import create_message
 from qpid_bow.receiver import Receiver
 from qpid_bow.sender import Sender
 
-SERVER_URL = '127.0.0.1'
-QUEUE_NAME = 'examples'
+SERVER_URL = 'amqp://admin:queueadmin@queues.hotelsoft.tech:61616?connectionTtl=300000'
+QUEUE_NAME = 'TestRateshopJobs'
+
 
 
 def main():

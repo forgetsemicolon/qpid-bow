@@ -8,11 +8,9 @@ from typing import Any, Awaitable, Callable, Optional, Type, Union
 from uuid import uuid4
 
 from proton import Delivery, Message
-from proton.reactor import (
-    Container,
-    EventBase,
-    Task,
-)
+from proton.reactor import Container
+from proton._reactor import Task
+from proton._events import EventBase
 
 from qpid_bow import Connector, ReconnectStrategy, RunState
 from qpid_bow.exc import (

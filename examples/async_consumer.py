@@ -9,8 +9,7 @@ from qpid_bow.receiver import Receiver
 from qpid_bow.sender import Sender
 
 SERVER_URL = 'amqp://admin:queueadmin@queues.hotelsoft.tech:61616?connectionTtl=300000'
-QUEUE_NAME = 'TestRateshopJobs'
-
+QUEUE_NAME = 'TestRateshopJobs123'
 
 
 def main():
